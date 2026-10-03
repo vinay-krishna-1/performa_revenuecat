@@ -2,7 +2,7 @@ module.exports = ({ config }) => {
   const apiKey =
     process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY ||
     config.android?.config?.googleMaps?.apiKey ||
-    'AIzaSyAvoSTbnjM-YzyNBSOJpkv9_RGRsKQWW9Q';
+    'YOUR_GOOGLE_MAPS_API_KEY_HERE';
 
   const plugins = config.plugins || [];
   const hasMapsPlugin = plugins.some(
